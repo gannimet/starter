@@ -2,7 +2,7 @@ const textfeld = document.getElementById('textfeld');
 const knopf = document.getElementById('knopf');
 const liste = document.getElementById('liste');
 
-knopf.addEventListener('mouseover', clickHandler);
+knopf.addEventListener('click', clickHandler);
 
 function clickHandler() {
   const neuesElement = document.createElement('li');
