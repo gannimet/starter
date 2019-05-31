@@ -13,3 +13,15 @@ function clickHandler() {
   
   textfeld.value = '';
 }
+
+const haus = {
+  baujahr: 1900,
+  stockwerke: 5,
+  strasse: 'Soldiner Str',
+  farbe: 'blau',
+  einstuerzen: function() {
+    console.log('krawumm');
+  }
+};
+
+haus.einstuerzen();
